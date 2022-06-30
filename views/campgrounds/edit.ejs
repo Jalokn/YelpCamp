@@ -2,7 +2,7 @@
 
     <div class="row">
         <h1 class="text-center">Edit Campground</h1>
-        <div class="col-6 offset-3">
+        <div class="col-md-6 offset-md-3">
             <form action="/campgrounds/<%= campground._id%>/?_method=put" class="needs-validation" method="post"
                 novalidate enctype="multipart/form-data">
                 <div class="mb-3">
@@ -49,7 +49,9 @@
                         <label for="image-<%= i %>">Delete?</label>
                         <% }) %>
                 </div>
-                <button class="btn btn-dark my-2">Submit Changes</button>
+                <div class="d-grid">
+                    <button class="btn btn-success my-2">Submit Changes</button>
+                </div>
             </form>
             <a href="/campgrounds/<%= campground._id %>">Back to Campground</a>
         </div>

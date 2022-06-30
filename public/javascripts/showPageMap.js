@@ -30,7 +30,7 @@ const marker1 = new mapboxgl.Marker()
     .setPopup(popup) // sets a popup on this marker
     .addTo(map);
 
-
+map.addControl(new mapboxgl.NavigationControl());
 
 
 
