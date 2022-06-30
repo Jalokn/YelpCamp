@@ -40,9 +40,5 @@
     "sanitize-html": "^2.7.0",
     "@mapbox/mapbox-sdk": "^0.13.3",
     "@types/mapbox__mapbox-sdk": "^0.13.4"
-  },
-  "devDependencies": {
-    "@mapbox/mapbox-sdk": "^0.13.3",
-    "@types/mapbox__mapbox-sdk": "^0.13.4"
   }
 }
